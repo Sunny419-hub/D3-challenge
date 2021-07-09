@@ -66,8 +66,10 @@ d3.csv("assets/data/data.csv").then(function(popuData) {
     .attr("cy", d => yLinearScale(d.obesity))
     .attr("r", "15")
     .attr("fill", "pink")
-    .attr("opacity", ".5");
-
+    .attr("opacity", ".5").append("text").join("tspan")
+    .attr("x", 0)
+    .attr("y", (d, i, nodes) => `${i - nodes.length / 2 + 0.8}em`).text(d => d.abbr);
+    
     // Create axes labels
     chartGroup.append("text")
       .attr("transform", "rotate(-90)")
