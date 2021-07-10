@@ -20,7 +20,7 @@ This scatter plot represents each state with circle elements.
 
 - - -
 
-Future elements:
+Next elements:
 
 ![7-animated-scatter](Images/7-animated-scatter.gif)
 
