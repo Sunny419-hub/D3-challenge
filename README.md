@@ -12,8 +12,6 @@ The editor wants to run a series of feature stories about the health risks facin
 
 The data set included with the assignment is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/). The current data set includes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
 
-### D3 Dabbler
-
 ![4-scatter](Images/4-scatter.jpg)
 
 Using the D3 techniques I created a scatter plot between two of the data variables `Obesity` and `Poverty`.
